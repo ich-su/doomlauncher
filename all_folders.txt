@@ -1,0 +1,1354 @@
+ ---doom
+    |   [ launcher ] All games.cmd
+    |   
+    +---doom_launcher2
+    |   |   doom_launcher2.exe
+    |   |   doom_launcher2.ini
+    |   |   
+    |   +---data
+    |   |   |   compatibility.ini
+    |   |   |   games.ini
+    |   |   |   launcher.ini
+    |   |   |   ports.ini
+    |   |   |   root.ini
+    |   |   |   
+    |   |   \---presets
+    |   |           .all.ini
+    |   |           .bd.ini
+    |   |           a.classic.ini
+    |   |           a.vanilla.ini
+    |   |           doom.bd21.ini
+    |   |           doom.bd21rc3.ini
+    |   |           doom.bdce.ini
+    |   |           doom.beautiful.ini
+    |   |           doom.cd-god.ini
+    |   |           doom.cd-ni.ini
+    |   |           doom.cd-tcf.ini
+    |   |           doom.cd26.ini
+    |   |           doom.cd27.ini
+    |   |           doom.classic-hd.ini
+    |   |           doom.classic-ich.ini
+    |   |           doom.colourfulhell.ini
+    |   |           doom.doom2rt.ini
+    |   |           doom.dr4.ini
+    |   |           doom.evp.ini
+    |   |           doom.prboom-rt.ini
+    |   |           doom.ruste.ini
+    |   |           doom64.bd64-sm4.ini
+    |   |           doom64.bd64-voh.ini
+    |   |           doom64.ini
+    |   |           eday.cs.ini
+    |   |           eday.et001-bdce.ini
+    |   |           eday.et001.ini
+    |   |           eday.v-bd22.ini
+    |   |           heretic.bh.ini
+    |   |           heretic.hd.ini
+    |   |           heretic.hereticaldoom.ini
+    |   |           heretic.nu.ini
+    |   |           hexen.bh.ini
+    |   |           hexen.hd.ini
+    |   |           hexen.nu.ini
+    |   |           other.bloom.ini
+    |   |           strife.classic.ini
+    |   |           wolf.bw.ini
+    |   |           zero.classic.ini
+    |   |           zero.vanilla.ini
+    |   |           _doom.bdmes.ini
+    |   |           _doom.graphics-lite.ini
+    |   |           _doom.graphics.ini
+    |   |           _doom.lca-djb.ini
+    |   |           _doom.lca.ini
+    |   |           _doom.music.idkfa.ini
+    |   |           _doom.music.ini
+    |   |           _doom.music.kolibri92.ini
+    |   |           _doom.music.mv6.ini
+    |   |           _doom.music.remix.ini
+    |   |           _doom.music.sycraft.ini
+    |   |           _doom.pbmonsters.ini
+    |   |           _doom.relighting.ini
+    |   |           _doom.smooth.ini
+    |   |           _doom.texture-lights.ini
+    |   |           _doom.textures-hd.ini
+    |   |           _doom.textures.ai4x.ini
+    |   |           _doom.textures.altdhtp.ini
+    |   |           _doom.textures.d3.ini
+    |   |           _doom.textures.dhtp.ini
+    |   |           _doom.textures.ini
+    |   |           _doom.textures.lrhq.ini
+    |   |           _doom.textures.nu2x.ini
+    |   |           _doom.voxel.ini
+    |   |           _doom.xvme.ini
+    |   |           _heretic.music.h+h.ini
+    |   |           _heretic.music.ini
+    |   |           _heretic.music.remaster.ini
+    |   |           _heretic.music.sycraft.ini
+    |   |           _hexen.music.ini
+    |   |           _strife.music.ini
+    |   |           
+    |   \---history
+    +---games
+    |   +---DOOM + DOOM 2
+    |   |   |   ...
+    |   |           
+    |   +---Heretic + Hexen
+    |   |   |   ...
+    |   |               
+    |   +---Selaco
+    |   |   |   ...
+    |   |                           
+    |   +---Siren
+    |   |   |   ...
+    |   |           
+    |   \---Wolfenstein. Blade of Agony
+    |   |   |   ...
+    |               
+    +---iwads
+    |   |   doom.wad
+    |   |   doom2.wad
+    |   |   doom2_(1.6).wad
+    |   |   doom_(classic).wad
+    |   |   doom_(shareware).wad
+    |   |   doom_complete.pk3
+    |   |   freedm.wad
+    |   |   freedoom1.wad
+    |   |   freedoom2.wad
+    |   |   heretic.wad
+    |   |   heretic_(classic).wad
+    |   |   hexdd.wad
+    |   |   hexdd.wad_
+    |   |   hexen.wad
+    |   |   nerve.wad
+    |   |   plutonia.wad
+    |   |   sigil.wad
+    |   |   sigil2.wad
+    |   |   sigil2_ost_thorr.wad
+    |   |   sigil_shreds.wad
+    |   |   small_deathmatch_doom.wad
+    |   |   tnt.wad
+    |   |   
+    |   +---doom+doom2
+    |   |       doom.wad
+    |   |       doom2.wad
+    |   |       doom_complete.pk3
+    |   |       extras.wad
+    |   |       id1-mus.wad
+    |   |       id1-res.wad
+    |   |       id1-tex.wad
+    |   |       id1-weap.wad
+    |   |       id1.wad
+    |   |       id24res.wad
+    |   |       iddm1.wad
+    |   |       masterlevels.wad
+    |   |       nerve.wad
+    |   |       plutonia.wad
+    |   |       sigil.wad
+    |   |       sigil2.wad
+    |   |       tnt.wad
+    |   |       
+    |   +---doom3_bfg_edition
+    |   |       doom.wad
+    |   |       doom2.wad
+    |   |       
+    |   +---doom_eternal
+    |   |       doom.wad
+    |   |       doom2.wad
+    |   |       
+    |   +---masterslevels
+    |   |   |   ATTACK.WAD
+    |   |   |   BLACKTWR.WAD
+    |   |   |   BLOODSEA.WAD
+    |   |   |   CANYON.WAD
+    |   |   |   CATWALK.WAD
+    |   |   |   COMBINE.WAD
+    |   |   |   FISTULA.WAD
+    |   |   |   GARRISON.WAD
+    |   |   |   GERYON.WAD
+    |   |   |   MANOR.WAD
+    |   |   |   MEPHISTO.WAD
+    |   |   |   MINOS.WAD
+    |   |   |   NESSUS.WAD
+    |   |   |   PARADOX.WAD
+    |   |   |   SUBSPACE.WAD
+    |   |   |   SUBTERRA.WAD
+    |   |   |   TEETH.WAD
+    |   |   |   TTRAP.WAD
+    |   |   |   VESPERAS.WAD
+    |   |   |   VIRGIL.WAD
+    |   |           
+    |   +---strife
+    |   |       field_guide.png
+    |   |       readme [ich] !!!.txt
+    |   |       strife1.wad
+    |   |       strife1_(1.3).wad
+    |   |       sve.wad
+    |   |       town_map.png
+    |   |       voices.wad
+    |   |       
+    |   \---wolf3d
+    |           GAMEMAPS.SD2
+    |           GAMEMAPS.SD3
+    |           GAMEMAPS.SOD
+    |           GAMEMAPS.WL6
+    |           wolf3d.ipk3
+    |           
+    +---maps
+    |   +---.bdce
+    |   |   |   BDCE_1994TU_COMPATIBILITY.pk3
+    |   |   |   BDCE_2002ADO_COMPATIBILITY.pk3
+    |   |   |   BDCE_25YOE_COMPATIBILITY.pk3
+    |   |   |   BDCE_AALIENS_COMPATIBILITY.pk3
+    |   |   |   BDCE_AEX_COMPATIBILITY.pk3
+    |   |   |   BDCE_AR_COMPATIBILITY.pk3
+    |   |   |   BDCE_ATONE_COMPATIBILITY.pk3
+    |   |   |   BDCE_AV_COMPATIBILITY.pk3
+    |   |   |   BDCE_BLOODSTAIN_COMPATIBILITY.pk3
+    |   |   |   BDCE_BTSX_E1_COMPATIBILITY.pk3
+    |   |   |   BDCE_BTSX_E2_COMPATIBILITY.pk3
+    |   |   |   BDCE_BX_E1_COMPATIBILITY.pk3
+    |   |   |   BDCE_CCHEST2_COMPATIBILITY.pk3
+    |   |   |   BDCE_CCHEST3_COMPATIBILITY.pk3
+    |   |   |   BDCE_CCHEST4_COMPATIBILITY.pk3
+    |   |   |   BDCE_D2ICO_COMPATIBILITY.pk3
+    |   |   |   BDCE_D2ISO_COMPATIBILITY.pk3
+    |   |   |   BDCE_D2RELOAD_COMPATIBILITY.pk3
+    |   |   |   BDCE_D2TWID_COMPATIBILITY.pk3
+    |   |   |   BDCE_DARK7MPK_COMPATIBILITY.pk3
+    |   |   |   BDCE_DARK7_COMPATIBILITY.pk3
+    |   |   |   BDCE_DARKEN2_COMPATIBILITY.pk3
+    |   |   |   BDCE_DARKEN_COMPATIBILITY.pk3
+    |   |   |   BDCE_DBP37_COMPATIBILITY.pk3
+    |   |   |   BDCE_DMONFEAR_COMPATIBILITY.pk3
+    |   |   |   BDCE_DVII_COMPATIBILITY.pk3
+    |   |   |   BDCE_DV_COMPATIBILITY.pk3
+    |   |   |   BDCE_DYSTOPIA3_COMPATIBILITY.pk3
+    |   |   |   BDCE_EARTH_COMPATIBILITY.pk3
+    |   |   |   BDCE_EDAYBDCE_COMPATIBILITY.pk3
+    |   |   |   BDCE_EPIC2_COMPATIBILITY.pk3
+    |   |   |   BDCE_EPIC_COMPATIBILITY.pk3
+    |   |   |   BDCE_EQUINOX_COMPATIBILITY.pk3
+    |   |   |   BDCE_ETERNAL_COMPATIBILITY.pk3
+    |   |   |   BDCE_EVITERNITY_COMPATIBILITY.pk3
+    |   |   |   BDCE_GD_COMPATIBILITY.pk3
+    |   |   |   BDCE_HADEPHOBIA_COMPATIBILITY.pk3
+    |   |   |   BDCE_HCv2.0_COMPATIBILITY.pk3
+    |   |   |   BDCE_HELLBOUND_COMPATIBILITY.pk3
+    |   |   |   BDCE_HERIAN2_COMPATIBILITY.pk3
+    |   |   |   BDCE_HG_COMPATIBILITY.pk3
+    |   |   |   BDCE_ICARUS_COMPATIBILITY.pk3
+    |   |   |   BDCE_JENESIS_COMPATIBILITY.pk3
+    |   |   |   BDCE_JPCP_COMPATIBILITY.pk3
+    |   |   |   BDCE_MACHETE_COMPATIBILITY.pk3
+    |   |   |   BDCE_MAPGAME_COMPATIBILITY.pk3
+    |   |   |   BDCE_MM2_COMPATIBILITY.pk3
+    |   |   |   BDCE_MM_COMPATIBILITY.pk3
+    |   |   |   BDCE_NDCP_COMPATIBILITY.pk3
+    |   |   |   BDCE_NEIS_COMPATIBILITY.pk3
+    |   |   |   BDCE_PAR_COMPATIBILITY.pk3
+    |   |   |   BDCE_PHOBOS_COMPATIBILITY.pk3
+    |   |   |   BDCE_PINACOLA_COMPATIBILITY.pk3
+    |   |   |   BDCE_PLUTONIA2_COMPATIBILITY.pk3
+    |   |   |   BDCE_PLUTONIA_COMPATIBILITY.pk3
+    |   |   |   BDCE_PRCP2_COMPATIBILITY.pk3
+    |   |   |   BDCE_PRCP_COMPATIBILITY.pk3
+    |   |   |   BDCE_REQUIEM_COMPATIBILITY.pk3
+    |   |   |   BDCE_RESURGENCE_COMPATIBILITY.pk3
+    |   |   |   BDCE_REVERIE_COMPATIBILITY.pk3
+    |   |   |   BDCE_RUINBROS_COMPATIBILITY.pk3
+    |   |   |   BDCE_RUSH_COMPATIBILITY.pk3
+    |   |   |   BDCE_SCYTHE2_COMPATIBILITY.pk3
+    |   |   |   BDCE_SCYTHE_COMPATIBILITY.pk3
+    |   |   |   BDCE_SHALLOWWE1_COMPATIBILITY.pk3
+    |   |   |   BDCE_SoD_COMPATIBILITY.pk3
+    |   |   |   BDCE_STANDRD4_COMPATIBILITY.pk3
+    |   |   |   BDCE_STARDATE20X6_COMPATIBILITY.pk3
+    |   |   |   BDCE_SUNLUST_COMPATIBILITY.pk3
+    |   |   |   BDCE_SWTW_COMPATIBILITY.pk3
+    |   |   |   BDCE_TEITENGA_COMPATIBILITY.pk3
+    |   |   |   BDCE_TNT2_COMPATIBILITY.pk3
+    |   |   |   BDCE_TNTR_COMPATIBILITY.pk3
+    |   |   |   BDCE_TNT_COMPATIBILITY.pk3
+    |   |   |   BDCE_TVR_COMPATIBILITY.pk3
+    |   |   |   BDCE_UR_COMPATIBILITY.pk3
+    |   |   |   BDCE_VALIANT_COMPATIBILITY.pk3
+    |   |   |   BDCE_VV2_COMPATIBILITY.pk3
+    |   |   |   BDCE_WHITEMARE2_COMPATIBILITY.pk3
+    |   |   |   BDCE_WOS_COMPATIBILITY.pk3
+    |   |   |   
+    |   |   \---.doc
+    |   |           CompatibilityPatches.20.txt
+    |   |           
+    |   +---.games
+    |   |   +---doom64
+    |   |   |   +---Brutal_DOOM_64_Sergeant_Mark_IV
+    |   |   |   |   |   bd64gamev2.pk3
+    |   |   |   |   |   bd64mapsV2.pk3
+    |   |   |   |   |   STAnnouncerPack.pk3
+    |   |   |   |   |   ZD64MUSIC.PK3
+    |   |   |   |   |   
+    |   |   |   |   \---.doc
+    |   |   |   |           Brutal_DOOM_64_readme.txt
+    |   |   |   |           
+    |   |   |   +---Brutal_DOOM_64_Veteran_of_Hell
+    |   |   |   |       BD64-VoH_game_v1.5.3.pk3
+    |   |   |   |       BD64-VoH_maps_v1.5.3.pk3
+    |   |   |   |       
+    |   |   |   \---DOOM_64_Retribution
+    |   |   |       |   1_d64rtr[v1.5].wad
+    |   |   |       |   2_d64rtr_brightmaps.pk3
+    |   |   |       |   3_d64mus.wad
+    |   |   |       |   
+    |   |   |       \---.other
+    |   |   |               d64rtr.ico
+    |   |   |               d64rtr_changelog.txt
+    |   |   |               d64rtr_instructions.txt
+    |   |   |               d64rtr_readme.txt
+    |   |   |               doomsnd.sf2
+    |   |   |               readme [ich].txt
+    |   |   |               
+    |   |   +---doomzero
+    |   |   |   |   .DoomZero.deh.ini
+    |   |   |   |   DoomZero.deh
+    |   |   |   |   DoomZero.wad
+    |   |   |   |   
+    |   |   |   \---.other
+    |   |   |           DOOMZERO.BAT
+    |   |   |           DoomZero.txt
+    |   |   |           For Chocolate Doom.BAT
+    |   |   |           Widescreen.wad
+    |   |   |           
+    |   |   +---eday
+    |   |   |   +---Extermination_Day_ChebSkies
+    |   |   |   |   |   1_chebskies-launcher-BDv21.pk3
+    |   |   |   |   |   2_brutalv21che.pk3
+    |   |   |   |   |   3_EdayTest001-resources.pk3
+    |   |   |   |   |   4_EdayMusic001.wad
+    |   |   |   |   |   5_chebskies-resources.pk3
+    |   |   |   |   |   9_chebskies-ru-zandronum.pk3
+    |   |   |   |   |   
+    |   |   |   |   \---.other
+    |   |   |   |           BDv21ChebFixesReadme.txt
+    |   |   |   |           brutalv22test3-patch-for-chebskies.pk3
+    |   |   |   |           chebskies-launcher-BDv22.pk3
+    |   |   |   |           ChebSkiesReadMe.txt
+    |   |   |   |           HOW_TO_RUN_CHEBSKIES.txt
+    |   |   |   |           SPOILER_ALERT_eday_walkthrough.txt
+    |   |   |   |           
+    |   |   |   +---Extermination_Day_EdayTest001
+    |   |   |   |       1_EdayTest001.pk3
+    |   |   |   |       2_EdayMusic001.wad
+    |   |   |   |       
+    |   |   |   +---Extermination_Day_EdayTest001_BDCE
+    |   |   |   |   |   1_EdayTestBDCE.pk3
+    |   |   |   |   |   2_EdayMusic001.wad
+    |   |   |   |   |   
+    |   |   |   |   \---.ich
+    |   |   |   |           readme.txt
+    |   |   |   |           
+    |   |   |   \---Extermination_Day_Vanilla
+    |   |   |           1_Extermination_Day_Vanilla.pk3
+    |   |   |           2_EnchancedBulletPuffs.pk3
+    |   |   |           
+    |   |   +---other
+    |   |   |   \---Bloom
+    |   |   |       |   Bloom.pk3
+    |   |   |       |   
+    |   |   |       \---.doc
+    |   |   |   		|	...
+    |   |   |           |       
+    |   |   |           \---Source
+    |   |   |                   Main.Acs
+    |   |   |                   Options.acs
+    |   |   |                   Traps.acs
+    |   |   |                   
+    |   |   \---wolf3d
+    |   |       \---Brutal_Wolfenstein_3D
+    |   |           |   ZMC-BWV7.2.pk3
+    |   |           |   
+    |   |           \---.doc
+    |   |               |   Brutal_Wolfenstein_Lorebook_.pdf
+    |   |               |   
+    |   |               \---Important README documentation
+    |   |                       Brutal Wolfenstein 3D V7.2.txt
+    |   |                       Credits and changelogs.txt
+    |   |                       Music Credits.txt
+    |   |                       READ ME PLEASE.txt
+    |   |                       
+    |   +---doom1
+    |   |   |   .Enhanced_E1.ini
+    |   |   |   Enhanced_E1.wad
+    |   |   |   
+    |   |   +---.other
+    |   |   |       enh_e1v1.8c.wad
+    |   |   |       
+    |   |   +---Doom_the_Way_id_Did
+    |   |   |       Doom_the_Way_id_Did.deh
+    |   |   |       Doom_the_Way_id_Did.wad
+    |   |   |       
+    |   |   \---Stickney_Installation
+    |   |           Stickney_Installation.deh
+    |   |           Stickney_Installation.wad
+    |   |           
+    |   +---doom2
+    |   |   |   .Compendium.ini
+    |   |   |   .HonTE_Remastered_Experimental.ini
+    |   |   |   Compendium.pk3
+    |   |   |   HonTE_Remastered_Experimental.wad
+    |   |   |   
+    |   |   +---+God_Complex_maps
+    |   |   |   +---Ultra_s Nightmare
+    |   |   |   |   |   .ini
+    |   |   |   |   |   1_Ultras_Nightmare_Vanilla.pk3
+    |   |   |   |   |   2_OTEX_1.0.WAD
+    |   |   |   |   |   3_GOTHICTX.WAD
+    |   |   |   |   |   
+    |   |   |   |   +---.doc
+    |   |   |   |   |       LOAD ORDER-README.txt
+    |   |   |   |   |       
+    |   |   |   |   \---.other
+    |   |   |   |           1_Ultras Nightmare_For_Mods.pk3
+    |   |   |   |           LOAD ORDER-README.txt
+    |   |   |   |           
+    |   |   |   \---ViolenceCity
+    |   |   |       |   .ini
+    |   |   |       |   1_ViolenceCity.pk3
+    |   |   |       |   2_GOTHICTX.WAD
+    |   |   |       |   simpleuiaddons.pk3
+    |   |   |       |   
+    |   |   |       \---.doc
+    |   |   |               LOAD ORDER-README.txt
+    |   |   |               
+    |   |   +---+ich
+    |   |   |   |   .ini
+    |   |   |   |   
+    |   |   |   +---+etc
+    |   |   |   |       Champ.wad
+    |   |   |   |       Crazy.wad
+    |   |   |   |       dm33.wad
+    |   |   |   |       dm_best.wad
+    |   |   |   |       dm_best2.wad
+    |   |   |   |       dm_best2old.wad
+    |   |   |   |       Quake.wad
+    |   |   |   |       Scare_(rip).wad
+    |   |   |   |       TeamFort.wad
+    |   |   |   |       
+    |   |   |   +---.doc
+    |   |   |   |       champ.txt
+    |   |   |   |       complex.txt
+    |   |   |   |       crazy.txt
+    |   |   |   |       death.txt
+    |   |   |   |       dm33.txt
+    |   |   |   |       dm_best.txt
+    |   |   |   |       dm_best2.diz
+    |   |   |   |       dm_best2.txt
+    |   |   |   |       dm_best2old.txt
+    |   |   |   |       giddy.txt
+    |   |   |   |       night.txt
+    |   |   |   |       quake.txt
+    |   |   |   |       scare.txt
+    |   |   |   |       teamfort.txt
+    |   |   |   |       
+    |   |   |   +---Complex
+    |   |   |   |   |   .ini
+    |   |   |   |   |   Complex.wad
+    |   |   |   |   |   Complex@port=zdoom_2-8-1.lmp
+    |   |   |   |   |   
+    |   |   |   |   \---.presets
+    |   |   |   |           test.ini
+    |   |   |   |           
+    |   |   |   +---Death
+    |   |   |   |       Death.wad
+    |   |   |   |       
+    |   |   |   +---Giddy
+    |   |   |   |       .ini
+    |   |   |   |       Giddy.wad
+    |   |   |   |       Giddy_map01_&_map02@port=zdoom_2-8-1.lmp
+    |   |   |   |       Giddy_map02@port=zdoom_2-8-1.lmp
+    |   |   |   |       
+    |   |   |   +---Night
+    |   |   |   |       .ini
+    |   |   |   |       Night.wad
+    |   |   |   |       Night@port=zdoom_2-8-1.lmp
+    |   |   |   |       
+    |   |   |   \---Scare
+    |   |   |           .ini
+    |   |   |           Scare.wad
+    |   |   |           Scare@port=zdoom_2-8-1.lmp
+    |   |   |           
+    |   |   +---+Megawads
+    |   |   |   |   .ArmageDOOM.ini
+    |   |   |   |   .Elementalism_Phase_1.ini
+    |   |   |   |   .ini
+    |   |   |   |   Ancient_Aliens.wad
+    |   |   |   |   ArmageDOOM.wad
+    |   |   |   |   Congestion_1024.wad
+    |   |   |   |   DOOM+.wad
+    |   |   |   |   DOOM_2_Reloaded.wad
+    |   |   |   |   Elementalism_Phase_1.pk3
+    |   |   |   |   Eternal_Doom_III.wad
+    |   |   |   |   Eviternity.wad
+    |   |   |   |   Eviternity_II.wad
+    |   |   |   |   Going_Down.wad
+    |   |   |   |   HellFire_Collection.pk3
+    |   |   |   |   Newdoom_Community_Project.wad
+    |   |   |   |   Phobos.wad
+    |   |   |   |   Scythe.wad
+    |   |   |   |   Scythe_2.wad
+    |   |   |   |   Sunder.wad
+    |   |   |   |   The_10x10_Project.wad
+    |   |   |   |   Valiant.wad
+    |   |   |   |   Winter's Fury.pk3
+    |   |   |   |   
+    |   |   |   +---.doc
+    |   |   |   |   |   Alien_Vendetta.txt
+    |   |   |   |   |   Alien_Vendetta_changes.txt
+    |   |   |   |   |   Alien_Vendetta_midi.txt
+    |   |   |   |   |   Ancient_Aliens.txt
+    |   |   |   |   |   Congestion_1024.txt
+    |   |   |   |   |   Doom_2_the_Way_id_Did.txt
+    |   |   |   |   |   Elementalism_Phase1_Full_Release_v1.3.txt
+    |   |   |   |   |   Eternal_Doom_III_credits.wad
+    |   |   |   |   |   Eternal_Doom_III_csweeper.wad
+    |   |   |   |   |   Eviternity.txt
+    |   |   |   |   |   Eviternity_changelog.txt
+    |   |   |   |   |   Eviternity_II.txt
+    |   |   |   |   |   Eviternity_II_changelog.txt
+    |   |   |   |   |   Eviternity_II_credits.txt
+    |   |   |   |   |   Going_Down.txt
+    |   |   |   |   |   Memento_Mori.txt
+    |   |   |   |   |   Memento_Mori_2.txt
+    |   |   |   |   |   Memento_Mori_help.txt
+    |   |   |   |   |   Newdoom_Community_Project.txt
+    |   |   |   |   |   Phobos.txt
+    |   |   |   |   |   Requiem.txt
+    |   |   |   |   |   scythe.txt
+    |   |   |   |   |   Scythe_2.txt
+    |   |   |   |   |   Scythe_X.txt
+    |   |   |   |   |   Sunder.txt
+    |   |   |   |   |   The_10x10_Project.txt
+    |   |   |   |   |   Thirty_years_with_Doom.txt
+    |   |   |   |   |   Valiant.txt
+    |   |   |   |   |   
+    |   |   |   |   +---Alien_Vendetta_midi
+    |   |   |   |   |       ...
+    |   |   |   |   |       
+    |   |   |   |   \---The_10x10_Project_demos
+    |   |   |   |   |       ...
+    |   |   |   |           
+    |   |   |   +---Alien_Vendetta
+    |   |   |   |       Alien_Vendetta.deh
+    |   |   |   |       Alien_Vendetta.wad
+    |   |   |   |       Alien_Vendetta_fix.wad
+    |   |   |   |       Alien_Vendetta_midi.wad
+    |   |   |   |       
+    |   |   |   +---Doomium
+    |   |   |   |       .DMIUM.txt
+    |   |   |   |       DMIUM.wad
+    |   |   |   |       NinthBurn's STBAR.wad
+    |   |   |   |       
+    |   |   |   +---Doom_2_Remake
+    |   |   |   |       .D2Re.txt
+    |   |   |   |       D2Re.pk3
+    |   |   |   |       
+    |   |   |   +---Doom_2_The_Way_ID_Did
+    |   |   |   |       Doom_2_the_Way_id_Did.deh
+    |   |   |   |       Doom_2_the_Way_id_Did.wad
+    |   |   |   |       
+    |   |   |   +---Exomoon
+    |   |   |   |       .Exomoon.txt
+    |   |   |   |       .ini
+    |   |   |   |       Exomoon-mp3.wad
+    |   |   |   |       Exomoon.wad
+    |   |   |   |       
+    |   |   |   +---Hell_Ground
+    |   |   |   |   |   1_hg.wad
+    |   |   |   |   |   2_hg_lights.pk3
+    |   |   |   |   |   
+    |   |   |   |   \---.doc
+    |   |   |   |           hg.txt
+    |   |   |   |           
+    |   |   |   +---Japanese_Community_Project
+    |   |   |   |   |   JPCP_HUDjpn.wad
+    |   |   |   |   |   JPCP_v1.1.wad
+    |   |   |   |   |   
+    |   |   |   |   \---.doc
+    |   |   |   |           JPCP_1.1.txt
+    |   |   |   |           
+    |   |   |   +---Memento_Mori
+    |   |   |   |       Memento_Mori.wad
+    |   |   |   |       Memento_Mori_music.wad
+    |   |   |   |       
+    |   |   |   +---Memento_Mori_2
+    |   |   |   |       Memento_Mori_2.wad
+    |   |   |   |       Memento_Mori_2_music.wad
+    |   |   |   |       
+    |   |   |   +---Moonblood
+    |   |   |   |       .moonbld.txt
+    |   |   |   |       .no-filter.wad
+    |   |   |   |       moonbld.wad
+    |   |   |   |       
+    |   |   |   +---Ozonia
+    |   |   |   |       .ini
+    |   |   |   |       .ozonia.txt
+    |   |   |   |       ozonia-2.32-RC4.wad
+    |   |   |   |       
+    |   |   |   +---Requiem
+    |   |   |   |       Requiem.wad
+    |   |   |   |       Requiem_music.wad
+    |   |   |   |       
+    |   |   |   \---Scythe_X
+    |   |   |           Scythe_X.deh
+    |   |   |           Scythe_X.wad
+    |   |   |           
+    |   |   +---+realm667.com
+    |   |   |   |   .ini
+    |   |   |   |   
+    |   |   |   +---Austerity_-_A_Simplicity_Tribute
+    |   |   |   |       .austerity.txt
+    |   |   |   |       .ini
+    |   |   |   |       austerity.pk3
+    |   |   |   |       
+    |   |   |   +---City_of_the_Damned
+    |   |   |   |       .ini
+    |   |   |   |       .tcotd1.txt
+    |   |   |   |       tcotd1.pk3
+    |   |   |   |       
+    |   |   |   +---City_of_the_Damned_2
+    |   |   |   |       .ini
+    |   |   |   |       .tcotd2.txt
+    |   |   |   |       tcotd2.pk3
+    |   |   |   |       
+    |   |   |   +---Sapphire_-_Orbital Research
+    |   |   |   |       .ini
+    |   |   |   |       .sapphire.txt
+    |   |   |   |       sapphire.pk3
+    |   |   |   |       
+    |   |   |   +---Stronghold
+    |   |   |   |       .ini
+    |   |   |   |       .strnghld_v1.txt
+    |   |   |   |       strnghld_v1.pk3
+    |   |   |   |       
+    |   |   |   +---The_Refinery_-_Trinity
+    |   |   |   |       .ini
+    |   |   |   |       .therefinery.txt
+    |   |   |   |       therefinery.pk3
+    |   |   |   |       
+    |   |   |   +---Torment_and_Torture_1
+    |   |   |   |       .ini
+    |   |   |   |       .tnte1.txt
+    |   |   |   |       tnte1.pk3
+    |   |   |   |       
+    |   |   |   +---Torment_and_Torture_2
+    |   |   |   |       .ini
+    |   |   |   |       .tnte2.txt
+    |   |   |   |       tnte2.pk3
+    |   |   |   |       
+    |   |   |   +---Torment_and_Torture_3
+    |   |   |   |       .ini
+    |   |   |   |       .tnte3.txt
+    |   |   |   |       tnte3.pk3
+    |   |   |   |       
+    |   |   |   +---Torment_and_Torture_Lost_Episode
+    |   |   |   |       .ini
+    |   |   |   |       .tntle.txt
+    |   |   |   |       tntle.pk3
+    |   |   |   |       
+    |   |   |   \---Zpack
+    |   |   |           .ini
+    |   |   |           zpack.pk3
+    |   |   |           zpack.txt
+    |   |   |           
+    |   |   \---.other
+    |   |           dwango5.wad
+    |   |           
+    |   +---heretic
+    |   |   |   Heretic_Faithless_Trilogy.pk3
+    |   |   |   
+    |   |   \---PUSS43_QTR2
+    |   |           .ini
+    |   |           .PUSS43_QTR2.txt
+    |   |           PUSS43_QTR2.wad
+    |   |           
+    |   +---plutonia
+    |   |   |   Plutonia_Revisited_Community_Project_2.wad
+    |   |   |   
+    |   |   +---.doc
+    |   |   |       Plutonia_2.ico
+    |   |   |       Plutonia_2.txt
+    |   |   |       Plutonia_2_info.txt
+    |   |   |       Plutonia_Revisited_Community_Project.txt
+    |   |   |       Plutonia_Revisited_Community_Project_2.txt
+    |   |   |       Plutonia_Revisited_Community_Project_info.txt
+    |   |   |       
+    |   |   +---Plutonia_2
+    |   |   |       Plutonia_2.deh
+    |   |   |       Plutonia_2.wad
+    |   |   |       
+    |   |   \---Plutonia_Revisited_Community_Project
+    |   |           PRCP.deh
+    |   |           PRCP.wad
+    |   |           
+    |   +---strife_v
+    |   |   +---Absolute_Order
+    |   |   |       .ini
+    |   |   |       .sabord.txt
+    |   |   |       sabord.wad
+    |   |   |       
+    |   |   \---Day_of_the_Acolyte
+    |   |           .kaiser_23.txt
+    |   |           kaiser_23.wad
+    |   |           
+    |   \---tnt
+    |       +---TNT_2_Devilution
+    |       |   |   .ini
+    |       |   |   TNT2BMUS.wad
+    |       |   |   TNT2_1_1.deh
+    |       |   |   TNT2_1_1.wad
+    |       |   |   
+    |       |   \---.doc
+    |       |           TNT2_1_1.txt
+    |       |           
+    |       \---TNT_Revilution
+    |           |   .ini
+    |           |   TNT_Revilution.deh
+    |           |   TNT_Revilution.wad
+    |           |   
+    |           \---.doc
+    |                   TNT_Revilution.txt
+    |                   
+    +---mods
+    |   +---all
+    |   |   |   .Bolognese_Gore_Mod_3-0.ini
+    |   |   |   .Damage_Hud_Indicator.ini
+    |   |   |   .Gearbox.ini
+    |   |   |   .ini
+    |   |   |   .Low_Health_Alert.ini
+    |   |   |   .More_Lights.ini
+    |   |   |   .Precise_Crosshair.ini
+    |   |   |   .Rain_Remixed++.ini
+    |   |   |   .Target_Spy.ini
+    |   |   |   .TiltPlusPlus.ini
+    |   |   |   .Ultimate_Classic_Minimap_Radar.ini
+    |   |   |   .Universal_Level_Select_Menu.ini
+    |   |   |   .Universal_Weapon_Sway.ini
+    |   |   |   Bolognese_Gore_Mod_3-0.pk3
+    |   |   |   Brightmaps_Plus_Vanilla.pk3
+    |   |   |   Damage_Hud_Indicator.pk3
+    |   |   |   Gearbox.pk3
+    |   |   |   Low_Health_Alert.pk3
+    |   |   |   More_Lights.pk3
+    |   |   |   Precise_Crosshair.pk3
+    |   |   |   Rain_Remixed++.wad
+    |   |   |   Target_Spy.pk3
+    |   |   |   TiltPlusPlus.pk3
+    |   |   |   Ultimate_Classic_Minimap_Radar.pk3
+    |   |   |   Universal_Level_Select_Menu.pk3
+    |   |   |   Universal_Weapon_Sway.pk3
+    |   |   |   
+    |   |   +---Flashlight++
+    |   |   |   |   .ini
+    |   |   |   |   Flashlight++@port=gzdoom,lzdoom,vkdoom.pk3
+    |   |   |   |   TDDRs_Lagless_FlashLight.pk3
+    |   |   |   |   
+    |   |   |   \---1
+    |   |   |           TDDRs_Lagless_FlashLight@port=zandronum.pk3
+    |   |   |           
+    |   |   +---Russian
+    |   |   |       .ini
+    |   |   |       .russian.txt
+    |   |   |       russian.pk3
+    |   |   |       
+    |   |   \---Sprite_Fixing_Project_+_Brightmaps_Plus
+    |   |       |   .ini
+    |   |       |   1_D1DEHFIX@game=doom1.DEH
+    |   |       |   1_D1SPFX20@game=doom1.WAD
+    |   |       |   1_D2DEHFIX@game=doom2.DEH
+    |   |       |   1_D2SPFX20@game=doom2.WAD
+    |   |       |   1_HRSPFX10@game=heretic.WAD
+    |   |       |   1_HRWIDE10@game=heretic.WAD
+    |   |       |   2_bmplus_spritefix.pk3
+    |   |       |   3_bmplus_textures.pk3
+    |   |       |   
+    |   |       \---.doc
+    |   |               Changelog_doom2.txt
+    |   |               Changelog_heretic.txt
+    |   |               HRSPFX10.txt
+    |   |               HRWIDE10.txt
+    |   |               SPRFIX20.TXT
+    |   |               
+    |   +---doom
+    |   |   +---+brutal
+    |   |   |   |   .Brutal_DOOM_2-1-0-4_patch_0603.ini
+    |   |   |   |   .Brutal_DOOM_2-1.ini
+    |   |   |   |   .Brutal_DOOM_2-1_Community_Expansion.ini
+    |   |   |   |   .Brutal_DOOM_2-1_HudPack_v1.2_GR.ini
+    |   |   |   |   .Brutal_DOOM_2-1_Project_Brutality_Monsters.ini
+    |   |   |   |   .GLDEFS_2-1-0-4.ini
+    |   |   |   |   .XHAIRS.ini
+    |   |   |   |   Brutal_DOOM_2-1-0-4_patch_0603.pk3
+    |   |   |   |   Brutal_DOOM_2-1.pk3
+    |   |   |   |   Brutal_DOOM_2-1_Community_Expansion.pk3
+    |   |   |   |   Brutal_DOOM_2-1_HudPack_v1.2_GR.pk3
+    |   |   |   |   Brutal_DOOM_2-1_Map_Enhancement_System.pk3
+    |   |   |   |   Brutal_DOOM_2-1_Monsters_Only.pk3
+    |   |   |   |   Brutal_DOOM_2-1_Project_Brutality_Monsters.pk3
+    |   |   |   |   Brutal_DOOM_2-2_test6.pk3
+    |   |   |   |   Brutal_DOOM_Black_Edition_3-38.pk3
+    |   |   |   |   GLDEFS_2-1-0-4.pk3
+    |   |   |   |   Project_Brutality_0-3-1_alpha.pk3
+    |   |   |   |   XHAIRS.pk3
+    |   |   |   |   
+    |   |   |   +---+Brutal_DOOM_2-1_Versions
+    |   |   |   |   |   Brutal_DOOM_2-1-0-3_patch.pk3
+    |   |   |   |   |   Brutal_DOOM_2-1_Map_Enhancement_System_Beta.pk3
+    |   |   |   |   |   Brutal_DOOM_2-1_RC1fix.pk3
+    |   |   |   |   |   Brutal_DOOM_2-1_RC3.pk3
+    |   |   |   |   |   Brutal_DOOM_2-1_RC4.pk3
+    |   |   |   |   |   Brutal_DOOM_2-1_RC7.pk3
+    |   |   |   |   |   Brutal_DOOM_2-1_RC8.pk3
+    |   |   |   |   |   Brutal_DOOM_2-1_testnov5.pk3
+    |   |   |   |   |   Brutal_DOOM_2-2_test5rc2.pk3
+    |   |   |   |   |   
+    |   |   |   |   \---XVME_1-2-pre3_+_EWM
+    |   |   |   |           .ini
+    |   |   |   |           2_bdv21mutators154b.pk3
+    |   |   |   |           3_bdv21mut_ewm.pk3
+    |   |   |   |           4_bd21_xvme12pre3.pk3
+    |   |   |   |           5_bd21_xvme12_rspawner@filter=doom1.pk3
+    |   |   |   |           5_bd21_xvme12_rspawner@filter=doom2.pk3
+    |   |   |   |           
+    |   |   |   +---.other
+    |   |   |   |   |   Brutal_DOOM_2-1_Brutal_Pack_10-4.pk3
+    |   |   |   |   |   Brutal_DOOM_2-1_ChebSkies.pk3
+    |   |   |   |   |   Brutal_DOOM_Platinum_4-0.pk3
+    |   |   |   |   |   
+    |   |   |   |   +---BD_Brightmaps
+    |   |   |   |   |       ITEMS.pk3
+    |   |   |   |   |       MONSTERS.pk3
+    |   |   |   |   |       TEXTURES.pk3
+    |   |   |   |   |       
+    |   |   |   |   +---Brutal_DOOM_2-1_XV117's_Monster_Expansion
+    |   |   |   |   |   |   Changelog.txt
+    |   |   |   |   |   |   Readme.txt
+    |   |   |   |   |   |   
+    |   |   |   |   |   \---Bonus
+    |   |   |   |   |           bd21_patch_doomtribute.pk3
+    |   |   |   |   |           bd21_patch_hellrising.pk3
+    |   |   |   |   |           bd21_xvme12_TE_Patch.pk3
+    |   |   |   |   |           
+    |   |   |   |   +---Brutal_DOOM_Black_Edition_3-38
+    |   |   |   |   |   |   changelog archive.docx
+    |   |   |   |   |   |   poster.png
+    |   |   |   |   |   |   poster_alt.png
+    |   |   |   |   |   |   readme.txt
+    |   |   |   |   |   |   
+    |   |   |   |   |   +---bdbe_addons
+    |   |   |   |   |   |   +---alternate_footsteps
+    |   |   |   |   |   |   |       Doom3_footsteps.pk3
+    |   |   |   |   |   |   |       Doom4_footsteps.pk3
+    |   |   |   |   |   |   |       Half-Life_footsteps.pk3
+    |   |   |   |   |   |   |       Painkiller_footsteps_leather.pk3
+    |   |   |   |   |   |   |       Painkiller_footsteps_metal.pk3
+    |   |   |   |   |   |   |       Quake3_footsteps.pk3
+    |   |   |   |   |   |   |       Read me.txt
+    |   |   |   |   |   |   |       
+    |   |   |   |   |   |   \---alternate_hero_voice
+    |   |   |   |   |   |           Belial_Painkiller.pk3
+    |   |   |   |   |   |           Bitterman_Quake2.pk3
+    |   |   |   |   |   |           B_J_Blazkowicz_RTCW.pk3
+    |   |   |   |   |   |           Crash_Quake3.pk3
+    |   |   |   |   |   |           Daniel_Garner_Painkiller.pk3
+    |   |   |   |   |   |           Doomguy_Original.pk3
+    |   |   |   |   |   |           Doomguy_Playstation-D64_Original.pk3
+    |   |   |   |   |   |           Doomguy_Quake3.pk3
+    |   |   |   |   |   |           Doomguy_Ultimate.pk3
+    |   |   |   |   |   |           Doomguy_Ultimate_v2.pk3
+    |   |   |   |   |   |           Doom_Slayer_Doom2016.pk3
+    |   |   |   |   |   |           Doom_Slayer_DoomEternal.pk3
+    |   |   |   |   |   |           Duke_Nukem.pk3
+    |   |   |   |   |   |           Jack_Walters_Call_of_Cthulhu.pk3
+    |   |   |   |   |   |           Major_Quake3.pk3
+    |   |   |   |   |   |           Matthew_Kane_Quake4.pk3
+    |   |   |   |   |   |           Read me.txt
+    |   |   |   |   |   |           Sam_Stone_Serious_Sam.pk3
+    |   |   |   |   |   |           Sarge_Quake3.pk3
+    |   |   |   |   |   |           Visor_Quake3.pk3
+    |   |   |   |   |   |           
+    |   |   |   |   |   \---bdbe_v2.1c
+    |   |   |   |   |           bdbe_v2.0b_v2.1c.pk3
+    |   |   |   |   |           bd_v2.0b.pk3
+    |   |   |   |   |           example_run.txt
+    |   |   |   |   |           readme.txt
+    |   |   |   |   |           readme2_v2.1c.txt
+    |   |   |   |   |           readme_v2.1c.txt
+    |   |   |   |   |           
+    |   |   |   |   +---Brutal_DOOM_docs
+    |   |   |   |   |       brutalv21expansion21.16.1_ExpansionChangelog.txt
+    |   |   |   |   |       Brutal_DOOM_2-1_changelog.txt
+    |   |   |   |   |       Brutal_DOOM_2-1_manual.rtf
+    |   |   |   |   |       Brutal_DOOM_2-2_test4_changelog.txt
+    |   |   |   |   |       
+    |   |   |   |   \---DD_Brutal_DOOM_v9
+    |   |   |   |           DD_Brutal_DOOM_v9.pk3
+    |   |   |   |           ReadMe.txt
+    |   |   |   |           
+    |   |   |   \---XVME_1-3-1_+_EWM_2-1
+    |   |   |       |   .ini
+    |   |   |       |   3_bd21_xvme1.3.1_TPR_(patch21.0.3).pk3
+    |   |   |       |   4_bdv21mut_ewm_2.1.pk3
+    |   |   |       |   5_bd21_xvme1.3.1_TPR_monsters_drop_ammo.pk3
+    |   |   |       |   6_bd21_xvme1.3.1_TPR_respawner_(patch21.0.3)@filter=doom1.pk3
+    |   |   |       |   6_bd21_xvme1.3.1_TPR_respawner_(patch21.0.3)@filter=doom2.pk3
+    |   |   |       |   
+    |   |   |       \---.other
+    |   |   |           |   4_bdv21mut_ewm_1.2_0603.pk3
+    |   |   |           |   bdv21mut_ewm_1.2_0603_EWMChangeLog.txt
+    |   |   |           |   Changelog.txt
+    |   |   |           |   ChangeLog_UPD.txt
+    |   |   |           |   
+    |   |   |           \---Enhanced_Weapons_Mutator_v2.1_docs
+    |   |   |                   Changelog.txt
+    |   |   |                   Readme.txt
+    |   |   |                   
+    |   |   +---+global
+    |   |   |   |   .Beautiful_DOOM_7-1-6.ini
+    |   |   |   |   .Complex_DOOM_26a2.ini
+    |   |   |   |   .Complex_DOOM_27b2.ini
+    |   |   |   |   .Complex_DOOM_Legendary_Complex_Addon_1-5-9-6.ini
+    |   |   |   |   .Complex_DOOM_Legendary_Complex_Addon_djb_5-0.ini
+    |   |   |   |   Beautiful_DOOM_7-1-6.pk3
+    |   |   |   |   Complex_DOOM_26a2.pk3
+    |   |   |   |   Complex_DOOM_27b2.pk3
+    |   |   |   |   Complex_DOOM_Legendary_Complex_Addon_1-5-9-6.pk3
+    |   |   |   |   Complex_DOOM_Legendary_Complex_Addon_djb_5-0.pk3
+    |   |   |   |   Enhanced_Vanilla_Project_3-1h.pk3
+    |   |   |   |   Enhanced_Vanilla_Project_3-1h_Monsters_Only.pk3
+    |   |   |   |   Legacy_of_Rust_Enhanced.pk3
+    |   |   |   |   
+    |   |   |   +---Colourful_Hell
+    |   |   |   |       ColourfulHell_1_01@port=zandronum.pk3
+    |   |   |   |       ColourfulHell_1_04@port=gzdoom,lzdoom,vkdoom.pk3
+    |   |   |   |       
+    |   |   |   +---Complex_DOOM_God_Complex
+    |   |   |   |   |   .ini
+    |   |   |   |   |   @port=gzdoom,lzdoom@01_complexdoom_GodComplexGZ_1.1.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@02_lca_GodComplexGZ_1.0.2.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@03_randommons_GodComplexGZ_1.0.2.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@04_dust_GodComplexGZ_1.0.2.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@05_ilca_GodComplex_1.0.2.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@06_hem-custom_GodComplexGZ_1.0.2.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@07_cf_GodComplexGZ_1.0.3.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@08_rcfs_GodComplexGZ_1.0.2.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@09_GodComplex-GZ_1.2.0.4b.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@09_GodComplex-GZ_1.2.0.4b_patch_ich.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@10_CrosshairHP-NashHP+Armor_1.2.0.3.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@11_GodComplex-MusicPack_1.2.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@12_GodComplex-GZ-smallHUD_1.2.0.3.pk3
+    |   |   |   |   |   @port=gzdoom,lzdoom@smpb-v1.1.pk3
+    |   |   |   |   |   @port=zandronum@01_complex-doom.v26a2.pk3
+    |   |   |   |   |   @port=zandronum@02_lca-v1.5.9.6.pk3
+    |   |   |   |   |   @port=zandronum@03_randomons-v1.2.5.1.pk3
+    |   |   |   |   |   @port=zandronum@04_complex-dust-v1.7.2.pk3
+    |   |   |   |   |   @port=zandronum@05_insanelca-custom-v1.3a.pk3
+    |   |   |   |   |   @port=zandronum@06_hem-custom-CF-v4.1.pk3
+    |   |   |   |   |   @port=zandronum@07_complex-dust-clusterfuck-v4.1.pk3
+    |   |   |   |   |   @port=zandronum@08_hpbar-v22.1-cf.pk3
+    |   |   |   |   |   @port=zandronum@09_txs-reborn-v1.1.1.pk3
+    |   |   |   |   |   @port=zandronum@10_nemesis_hellsmith002-cf-fix.pk3
+    |   |   |   |   |   @port=zandronum@11_kazumiscomplexaddonpack-alpha-ver.0.6.pk3
+    |   |   |   |   |   @port=zandronum@12_complex-cf-nexus-alpha_v1.93.pk3
+    |   |   |   |   |   @port=zandronum@13_reimagined-cf-sounds-v3.3.pk3
+    |   |   |   |   |   @port=zandronum@14_GodComplex_1.1.3.pk3
+    |   |   |   |   |   @port=zandronum@15_GodComplex_SmallHud_1.1.3.pk3
+    |   |   |   |   |   
+    |   |   |   |   \---.other
+    |   |   |   |       +---GZDoom 4-8-2
+    |   |   |   |       |       09_GodComplex-GZ_1.2.0.4.pk3
+    |   |   |   |       |       Changelog-1.2.0.4.txt
+    |   |   |   |       |       README-Guide_1.2.0.4.txt
+    |   |   |   |       |       
+    |   |   |   |       \---Zandronum 3-1
+    |   |   |   |               1. LOAD ORDER + CHANGELOG.txt
+    |   |   |   |               2. FOR SERVER HOSTS.txt
+    |   |   |   |               GodComplex-SlaughterVersion_1.1.3.pk3
+    |   |   |   |               
+    |   |   |   +---Complex_DOOM_Nexus_Infinity
+    |   |   |   |   |   .ini
+    |   |   |   |   |   01_complex-doom-v26a2.pk3
+    |   |   |   |   |   02_lca-v1.5.9.6.pk3
+    |   |   |   |   |   03_lca-djb-v5.0.pk3
+    |   |   |   |   |   04_randomons-v1.2.5.1.pk3
+    |   |   |   |   |   05_nemesis_hellsmith003.pk3
+    |   |   |   |   |   06_complex-doom-nexus_v1.96.pk3
+    |   |   |   |   |   07_complex-nexus-data_v0.3.pk3
+    |   |   |   |   |   08_reimagined-cf-sounds-v3.4.pk3
+    |   |   |   |   |   09_nexus-tlca-v2.4.pk3
+    |   |   |   |   |   10_cd-nexus-Infinity-v0.4.pk3
+    |   |   |   |   |   11_cd-nexus-infinity-data-v2.pk3
+    |   |   |   |   |   12_cd-nexus-infinity-music-v1.pk3
+    |   |   |   |   |   13_cd-nexus-Infinity-intermission-v1.pk3
+    |   |   |   |   |   
+    |   |   |   |   \---.other
+    |   |   |   |           14_uhd_weapons_infinity-v1.pk3
+    |   |   |   |           lca-djb-v4.4.3.pk3
+    |   |   |   |           radme.txt
+    |   |   |   |           
+    |   |   |   +---Complex_DOOM_The_True_Clusterfuck
+    |   |   |   |   |   .ini
+    |   |   |   |   |   1_clusterfuck-v4.3.1.pk3
+    |   |   |   |   |   2_clusterfuck-v4.3.1-patchv2.pk3
+    |   |   |   |   |   3_cf-music-v4.pk3
+    |   |   |   |   |   
+    |   |   |   |   \---.other
+    |   |   |   |           Complex_Clusterfuck.txt
+    |   |   |   |           
+    |   |   |   \---DOOM_Remake_4
+    |   |   |       |   .ini
+    |   |   |       |   1_doom_remake_4.pk3
+    |   |   |       |   2_overlay@game=doom1.pk3
+    |   |   |       |   2_overlay@game=doom2.pk3
+    |   |   |       |   2_overlay@game=masterlevels.pk3
+    |   |   |       |   2_overlay@game=nerve.pk3
+    |   |   |       |   2_overlay@game=plutonia.pk3
+    |   |   |       |   2_overlay@game=sigil.pk3
+    |   |   |       |   2_overlay@game=tnt.pk3
+    |   |   |       |   3_hqpsxmus.wad
+    |   |   |       |   4_startup.pk3
+    |   |   |       |   5_texture_lights.wad
+    |   |   |       |   
+    |   |   |       \---.other
+    |   |   |               overlay_masterlevels.pk3_old
+    |   |   |               
+    |   |   +---+graphics
+    |   |   |   |   .Pan_PBR_Liquids.ini
+    |   |   |   |   .Smooth_Weapons_Enhanced.ini
+    |   |   |   |   Pan_PBR_Liquids.pk3
+    |   |   |   |   Smooth_DOOM.pk3
+    |   |   |   |   Smooth_DOOM_only_Monsters.pk3
+    |   |   |   |   Smooth_Weapons_Enhanced.pk3
+    |   |   |   |   
+    |   |   |   +---Liquid_Textures_Pack
+    |   |   |   |       .ini
+    |   |   |   |       1_LTP_V7.0.1.pk3
+    |   |   |   |       2_LTP 16x10_RT_Reflection_1920x1200.pk3
+    |   |   |   |       3_LTP - Doom Terrain Splashes.pk3
+    |   |   |   |       
+    |   |   |   +---SBrightmaps
+    |   |   |   |       .ini
+    |   |   |   |       1_SBrightmaps.pk3
+    |   |   |   |       2_SBX_PLUT@game=plutonia.pk3
+    |   |   |   |       2_SBX_TNT@game=tnt.pk3
+    |   |   |   |       
+    |   |   |   \---Voxel
+    |   |   |           .RDVOX-0.42.ini
+    |   |   |           .Voxel_DOOM.ini
+    |   |   |           RDVOX-0.42.pk3
+    |   |   |           Voxel_DOOM.pk3
+    |   |   |           
+    |   |   +---+hd
+    |   |   |   |   HD_HUD.pk3
+    |   |   |   |   HD_Weapons_and_Objects.pk3
+    |   |   |   |   
+    |   |   |   \---HD_Menu
+    |   |   |           .ini
+    |   |   |           jfo.pk3
+    |   |   |           jfo@game=masterlevels.pk3
+    |   |   |           jfo@game=sigil.pk3
+    |   |   |           
+    |   |   +---+light
+    |   |   |   |   .Relighting.ini
+    |   |   |   |   .Texture_Lights.ini
+    |   |   |   |   Relighting.pk3
+    |   |   |   |   ReLite.pk3
+    |   |   |   |   Texture_Lights.wad
+    |   |   |   |   
+    |   |   |   \---Lights2
+    |   |   |           .ini
+    |   |   |           1_Lights2.pk3
+    |   |   |           2_ich.pk3
+    |   |   |           
+    |   |   +---+music
+    |   |   |   |   DOOM_Metal_Vol_6.wad
+    |   |   |   |   Kolibri92.pk3
+    |   |   |   |   Remix.pk3
+    |   |   |   |   Sycraft.pk3
+    |   |   |   |   
+    |   |   |   \---IDKFA
+    |   |   |           .ini
+    |   |   |           IDKFA.pk3
+    |   |   |           IDKFA@filter=wadsmoosh.pk3
+    |   |   |           
+    |   |   +---+textures
+    |   |   |   |   .DHTP.ini
+    |   |   |   |   .DHTP_normal.ini
+    |   |   |   |   .LRHQ_Texture_Pack.ini
+    |   |   |   |   .StepFix.ini
+    |   |   |   |   .VLT_PBR_POM_RC2.ini
+    |   |   |   |   .VLT_PBR_POM_RC2_+_DHTP_normal.ini
+    |   |   |   |   AI_Upscale_4X_Faithful.pk3
+    |   |   |   |   ANIDOOM_Upscale_Pack.pk3
+    |   |   |   |   DHTP.pk3
+    |   |   |   |   DHTP_normal.pk3
+    |   |   |   |   HD_Textures_Pack.pk3
+    |   |   |   |   LRHQ_Texture_Pack.pk3
+    |   |   |   |   PBRdoom2_v0.1.pk3
+    |   |   |   |   StepFix.wad
+    |   |   |   |   VLT_PBR_POM_RC2.pk3
+    |   |   |   |   VLT_PBR_POM_RC2_+_DHTP_normal.pk3
+    |   |   |   |   
+    |   |   |   +---+Neural_Upscale_2x
+    |   |   |   |       .All.ini
+    |   |   |   |       .FamilyPoster.jpg
+    |   |   |   |       .ini
+    |   |   |   |       .only_Monsters.ini
+    |   |   |   |       .only_Sky.ini
+    |   |   |   |       .only_Textures.ini
+    |   |   |   |       .wo_HUD.ini
+    |   |   |   |       .wo_Textures.ini
+    |   |   |   |       .wo_Textures_wo_HUD.ini
+    |   |   |   |       All.pk3
+    |   |   |   |       only_Monsters.pk3
+    |   |   |   |       only_Sky.pk3
+    |   |   |   |       only_Textures.pk3
+    |   |   |   |       Smooth_Weapons.pk3
+    |   |   |   |       Vanilla_Smooth_Weapons.pk3
+    |   |   |   |       wo_HUD.pk3
+    |   |   |   |       wo_Textures.pk3
+    |   |   |   |       wo_Textures_wo_HUD.pk3
+    |   |   |   |       
+    |   |   |   +---.other
+    |   |   |   |       .VLT_PBR_POM_RC2_ICH.ini
+    |   |   |   |       DHTP_normal_+_VLT_PBR_POM_RC2_ICH_old.pk3
+    |   |   |   |       Neural_Upscale_2x.pk3
+    |   |   |   |       Neural_Upscale_2x_Smooth_Weapons.pk3
+    |   |   |   |       Neural_Upscale_2x_Vanilla_Smooth Weapons.pk3
+    |   |   |   |       VLT_PBR_POM_RC2_ICH.pk3
+    |   |   |   |       
+    |   |   |   +---Alternate_DHTP_Upscale
+    |   |   |   |       AltDHTP_Upscale.pk3
+    |   |   |   |       spec.pk3
+    |   |   |   |       
+    |   |   |   \---DOOM_3_Textures
+    |   |   |           .ini
+    |   |   |           D3ForDTX_v5.3.pk3
+    |   |   |           D3TX_Extras_Brightmaps_Doom2.pk3
+    |   |   |           
+    |   |   \---.other
+    |   |       |   .AI_Upscale_4X_Faithful_Lite.ini
+    |   |       |   3D_Weapons.wad
+    |   |       |   AI_Upscale_4X_Faithful_Lite.pk3
+    |   |       |   brightmaps2_doomremake4.pk3
+    |   |       |   D3ModelsPack2024.zip
+    |   |       |   DoomParallaxRelief2.pk3
+    |   |       |   Double_DHTP.pk3
+    |   |       |   Liquid_Texture_Pack_V4.0.zip
+    |   |       |   Liquid_Texture_Pack_V7.0.1.zip
+    |   |       |   M4cron_Alternative_Dark_Texture_Pack.pk3
+    |   |       |   M4cron_Standard_Texture_Pack.pk3
+    |   |       |   relite_0.7.3b.pk3
+    |   |       |   rvdoomvox.16.zip
+    |   |       |   Skyboxes.pk3
+    |   |       |   wall_lighting.pk3
+    |   |       |   
+    |   |       +---jfo
+    |   |       |       jfo_doom.pk3
+    |   |       |       jfo_doom1.pk3
+    |   |       |       jfo_doom2.pk3
+    |   |       |       jfo_masterlevels.pk3
+    |   |       |       jfo_nerve.pk3
+    |   |       |       jfo_plutonia.pk3
+    |   |       |       jfo_sigil.pk3
+    |   |       |       jfo_tnt.pk3
+    |   |       |       
+    |   |       \---SmoothAll
+    |   |               SmoothAll.pk3
+    |   |               SmoothAll.txt
+    |   |               
+    |   +---heretic
+    |   |   |   Neural_Texture_Pack.pk3
+    |   |   |   
+    |   |   +---+music
+    |   |   |       Heretic+Hexen.pk3
+    |   |   |       Remaster.pk3
+    |   |   |       Sycraft.pk3
+    |   |   |       
+    |   |   +---Brutal_Heretic_RPG_6-1
+    |   |   |   |   1_BrutalHereticRPG_V6.1.pk3
+    |   |   |   |   2_heretic_gz.pk3
+    |   |   |   |   3_H20MUS.wad
+    |   |   |   |   4_mk-episodic-ex[1.1.0].pk3
+    |   |   |   |   
+    |   |   |   \---.other
+    |   |   |           5_Resurrectupdate_(Coop_mode).pk3
+    |   |   |           HERETIC_NZ_OPTIONS.ini
+    |   |   |           README - INSTALLATION GUIDE.txt
+    |   |   |           
+    |   |   +---Heretical_Doom
+    |   |   |   |   .ini
+    |   |   |   |   1_Heretical_Doom.pk3
+    |   |   |   |   2_HereticalDoomMonsters_0.4.pk3
+    |   |   |   |   3_HDMonstersCompatPatch.pk3
+    |   |   |   |   
+    |   |   |   \---.other
+    |   |   |           Changelog 1.5.rtf
+    |   |   |           Credits.txt
+    |   |   |           HereticalDoomMonsters Changelog v0.4.rtf
+    |   |   |           
+    |   |   \---Heretic_HD
+    |   |       |   .ini
+    |   |       |   01_heretic_relight_maps.wad
+    |   |       |   02_heretic_remade.wad
+    |   |       |   03_heretic_hd_pbr_hq.pk3
+    |   |       |   
+    |   |       \---.other
+    |   |               .ich.txt
+    |   |               02_mblur1.04.pk3
+    |   |               
+    |   +---hexen
+    |   |   |   Neural_Texture_Pack.pk3
+    |   |   |   
+    |   |   +---+music
+    |   |   |       Heretic+Hexen.pk3
+    |   |   |       
+    |   |   +---Brutal_Hexen_RPG_7-5
+    |   |   |   |   1_BrutalHexenRPG_V7.5.pk3
+    |   |   |   |   2_damnums_1.0.2.pk3
+    |   |   |   |   5_hexen_gz.pk3
+    |   |   |   |   6_3_HEXEN64.wad
+    |   |   |   |   
+    |   |   |   \---.other
+    |   |   |       |   3_GatherYourParty_(Coop_mode).pk3
+    |   |   |       |   4_Resurrectupdate_(Coop_mode).pk3
+    |   |   |       |   README - INSTALLATION GUIDE.txt
+    |   |   |       |   
+    |   |   |       \---BRUTAL HEXEN OPTIONS INI
+    |   |   |               HEXEN_NZ_OPTIONS.ini
+    |   |   |               
+    |   |   +---Hexen_HD
+    |   |   |   |   .ini
+    |   |   |   |   1_h_pbr_v461.pk3
+    |   |   |   |   2_hexen_remade.wad
+    |   |   |   |   
+    |   |   |   \---.other
+    |   |   |           hexen_remade_effects_off.wad
+    |   |   |           
+    |   |   \---Voxel
+    |   |           RZXVOX-0.1.2.pk3
+    |   |           
+    |   \---strife
+    |       \---+music
+    |               Strife.pk3
+    |               
+    +---ports
+    |   |   .gzdoom_4-14-2_reshade.ini
+    |   |   .gzdoom_4-14-3_uzdoom.ini
+    |   |   .zandronum_3-2-1_reshade.ini
+    |   |   
+    |   +---dsda-doom
+    |   |   |   ...
+    |   |                   
+    |   +---gzdoom-rt
+    |   |   |   ...
+    |   |                           
+    |   +---gzdoom_3-6-0
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_3-7-2
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_3-8-2
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-1-3
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-10-0
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-11-3a
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-12-2
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-13-2
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-14-2
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-14-2_reshade
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-14-3_uzdoom
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-2-4a
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-3-3
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-4-2
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-6-1
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-7-1
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-8-2
+    |   |   |   ...
+    |   |           
+    |   +---gzdoom_4-9-0
+    |   |   |   ...
+    |   |           
+    |   +---lzdoom_3-88b
+    |   |   |   ...
+    |   |           
+    |   +---lzdoom_4-11-4
+    |   |   |   ...
+    |   |           
+    |   +---lzdoom_4-14-3a
+    |   |   |   ...
+    |   |           
+    |   +---lzdoom_4-14-4
+    |   |   |   ...
+    |   |           
+    |   +---prboom-rt
+    |   |   |   ...
+    |   |               
+    |   +---vkdoom
+    |   |   |   ...
+    |   |           
+    |   +---zandronum_2-1-2
+    |   |   |   ...
+    |   |       
+    |   +---zandronum_3-0
+    |   |   |   ...
+    |   |           
+    |   +---zandronum_3-1
+    |   |   |   ...
+    |   |       
+    |   +---zandronum_3-2-1
+    |   |   |   ...
+    |   |           
+    |   +---zandronum_3-2-1_reshade
+    |   |   |   ...
+    |   |           
+    |   \---zdoom_2-8-1
+    |   |   |   ...
+    |           
+    \---userdata
+        +---configs
+        |       default.ini
+        |       default_gzdoom-rt.ini
+        |       default_gzdoom.ini
+        |       default_zandronum.ini
+        |       default_zdoom.ini
+        |       
+        +---save
+		|	|   ...
+		|
+        \---screenshots
+			|   ...
